@@ -6,7 +6,7 @@ package problems.Array;
  * Step3: print right column => from top to bottom => right-- & dir =3
  * Step4: print bottom row => from right to left => bottom-- & dir =4
  * Step5: print left column => from bottom to top => left++ & dir =1
- * Step6: repeat above steps until top=>bottom && left=>right is not satisfied
+ * Step6: repeat above steps until top=>bottom && left=>right conditions are not satisfied
  **************** */
 public class SpiralMatrix {
     public static void main(String args[]){
@@ -20,7 +20,7 @@ public class SpiralMatrix {
         spiralMatrix(array);
     }
 
-    private static void spiralMatrix(int[][] array) {
+    public static void spiralMatrix(int[][] array) {
         int rows= array.length;
         int cols= array[0].length;
         int top=0;
