@@ -14,6 +14,10 @@ String str4 = str1.concat(" ").concat(str2); // Using concat()
 ```java
 int length = str1.length();
 ```
+>String Manipulation : Convert string character to int
+```java
+int index = s.charAt(i) - 'a'; // Convert char to an index
+```
 ### 2. Character Extraction
 >charAt(): Accessing a character at a specific index.
 ```java
