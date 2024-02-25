@@ -79,7 +79,7 @@ sb.append(" World");
 StringBuffer sbf = new StringBuffer("Hello");
 sbf.append(" World");
 ```
-***Array Sort *** : Sort the array by comparing values
+**Array Sort ** : Sort the array by comparing values :  // Sort strings according to custom comparator
 ```java
 Arrays.sort(convertString, (a, b) -> {
             String order1 = a+b;
