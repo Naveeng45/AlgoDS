@@ -8,11 +8,12 @@ Input: "Data Structures and Algorithms"
 Output: "ataD serutcurtS dna smhtiroglA"
 
 >Approach
+
 The problem can be solved by following these steps:
 
-Split the String: First, split the input string by spaces to get individual words.
-Reverse Each Word: Then, for each word, reverse the characters.
-Join the Words: Finally, join the reversed words back together into a single string with spaces between them.
+1. Split the String: First, split the input string by spaces to get individual words.
+2. Reverse Each Word: Then, for each word, reverse the characters.
+3. Join the Words: Finally, join the reversed words back together into a single string with spaces between them.
 
 ```java
 public class ReverseWords {
