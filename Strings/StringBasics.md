@@ -79,6 +79,14 @@ sb.append(" World");
 StringBuffer sbf = new StringBuffer("Hello");
 sbf.append(" World");
 ```
+***Array Sort *** : Sort the array by comparing values
+```java
+Arrays.sort(convertString, (a, b) -> {
+            String order1 = a+b;
+            String order2 = b+a;
+            return order2.compareTo(order1);
+        });
+```
 #### Best Practices and Tips
 Prefer **StringBuilder** over **StringBuffer** for single-threaded operations due to its higher performance.
 Use String for constant strings, StringBuilder for strings that are modified often in a single-thread context, and StringBuffer in multi-thread contexts.
