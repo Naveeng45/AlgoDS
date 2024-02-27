@@ -75,6 +75,9 @@ For a dry run, consider the input nums = [1,-2,3,-2]:
 
 Kadane's algorithm for non-circular max sum: Finds 3 from [3].
 Total sum calculation: 1 - 2 + 3 - 2 = 0.
+
 Inverted array for minimum sum: Kadane's algorithm on [-1, 2, -3, 2] gives -3, indicating the original array's minimum subarray sum is 3.
+
 Maximum circular sum calculation: 0 - 3 = -3. However, this is not used since the non-circular max sum 3 is greater.
+
 Final Answer: The maximum sum circular subarray is 3.
